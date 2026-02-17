@@ -74,7 +74,7 @@ const DashboardPreview: React.FC<Props> = ({ html, onReset }) => {
             srcDoc={html}
             title="Dashboard Preview"
             className="w-full h-full bg-white border-none"
-            sandbox="allow-scripts"
+            sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"
           />
         ) : (
           <div className="w-full h-full overflow-auto bg-[#0d1117] p-6">

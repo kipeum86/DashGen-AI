@@ -69,16 +69,14 @@ function App() {
 
       </main>
 
-      {status !== GeneratorStatus.SUCCESS && (
-        <footer className="w-full p-8 text-center z-10 relative space-y-2">
-            <div className="text-slate-500 text-sm">
-              &copy; {new Date().getFullYear()} <a href="https://www.linkedin.com/in/kipeumlee/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 transition-colors font-medium border-b border-transparent hover:border-blue-400/50">Kipeum Lee</a>. All Rights Reserved.
-            </div>
-            <div className="text-slate-600 text-xs font-medium">
-              Powered by Google Gemini 3.0 Pro
-            </div>
-        </footer>
-      )}
+      <footer className="w-full p-8 text-center z-10 relative space-y-2">
+        <div className="text-slate-500 text-sm">
+            &copy; {new Date().getFullYear()} <a href="https://www.linkedin.com/in/kipeumlee/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 transition-colors font-medium border-b border-transparent hover:border-blue-400/50">Kipeum Lee</a>. All Rights Reserved.
+        </div>
+        <div className="text-slate-600 text-xs font-medium">
+            Powered by Google Gemini 3.0 Pro
+        </div>
+      </footer>
     </div>
   );
 }

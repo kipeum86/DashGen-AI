@@ -42,6 +42,7 @@ Your task is to generate a sophisticated, professional, single-file HTML dashboa
 
 **INTERACTIVITY:**
 - Sidebar links must work (scroll to ID).
+- **External Links:** All external links (like the YouTube source button) MUST use \`target="_blank"\` to open in a new tab.
 - Charts must be responsive.
 - Hover effects on cards and buttons.
 `;
